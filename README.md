@@ -1,3 +1,24 @@
+# devops-capstone-project (Customer Accounts Microservice)
+
+A full-stack DevOps implementation of a RESTful **Customer Accounts Microservice** built with Python (Flask) and fully automated using modern CI/CD, security practices, and cloud-native deployment.
+
+## Key Features & Practices
+
+* **Agile Workflow:** Managed via GitHub Projects, Kanban boards, user stories, and Sprint planning.
+* **TDD & Code Quality:** Developed with Test-Driven Development (Flask/`nosetests`), maintaining **>95% test coverage** and standard `Flake8` linting.
+* **Security First:** Hardened using `Flask-Talisman` (HTTP headers) and `Flask-CORS` policies.
+* **CI/CD Pipelines:**
+  * **CI (GitHub Actions):** Automated linting, testing, and code quality checks on every PR/push.
+  * **CD (Tekton):** Automated container build, image push, and deployment to Kubernetes/OpenShift.
+* **Containerization & Deployment:** Dockerized application deployed alongside PostgreSQL on OpenShift/Kubernetes using custom YAML manifests.
+
+## Tech Stack
+* **Language/Framework:** Python, Flask
+* **Database:** PostgreSQL
+* **Testing & Quality:** `nosetests`, Coverage, `Flake8`
+* **DevOps & Cloud:** Docker, IBM Cloud Container Registry, OpenShift / Kubernetes, GitHub Actions, Tekton
+
+
 # DevOps Capstone Template
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
