@@ -1,5 +1,7 @@
 # devops-capstone-project (Customer Accounts Microservice)
 
+![Build Status](https://github.com/0-TAMIM-0/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
 A full-stack DevOps implementation of a RESTful **Customer Accounts Microservice** built with Python (Flask) and fully automated using modern CI/CD, security practices, and cloud-native deployment.
 
 ## Key Features & Practices
